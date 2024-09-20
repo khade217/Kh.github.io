@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <title>Nani's Personal Webpage</title>
+  
+  <style>
+    body {
+      background: #112A46;
+      color: #ACC8E5;
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+    }
+
+    /* Header Section for Logo and Text */
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .header img {
+      height: 80px;
+      margin-right: 15px;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin: 0;
+      color: #ACC8E5;
+    }
+
+    nav {
+      background: #f4f4f4;
+      padding: 10px;
+    }
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    
+    nav ul li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      padding: 5px;
+    }
+    li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    li a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #
+      background-color: #555;
+      color: white;
+    }
+
+    .hero {
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      font-family: 'Playfair Display', serif;
+      animation: slideInDown 1s ease-in-out;
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+      animation: slideInUp 1s ease-in-out;
+    }
+
+    .responsive-img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes slideInDown {
+      0% { transform: translateY(-50px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+    .placeholder-image {
+      width: 100%;
+      height: 200px;
+      background-color: rgba(255, 255, 255, 0.2);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #fff;
+    }
+    @keyframes slideInUp {
+      0% { transform: translateY(50px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+    media only screen and (min-width: 480px) {
+         p {
+            font-size: 130%;
+         }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section for Logo and Text -->
+  <div class="header">
+    <img src="https://assets.onecompiler.app/42kq8ngd7/42qkwhawf/a.jpeg" alt="logo">
+    <h1>Dire Vibe</h1>
+  </div>
+
+  <!-- Navigation Menu -->
+  	<nav>
+  <ul>
+    <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+    <li><a href="#news"><i class="fas fa-newspaper"></i> News</a></li>
+    <li><a href="#contact"><i class="fas fa-phone"></i> Contact</a></li>
+    <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+  </ul>
+</nav>
+  <!-- Hero Section -->
+  <div class="container my-5">
+    <div class="hero">
+      <h1>Welcome to Nani's Webpage</h1>
+      <p>Showcasing My Work and Accomplishments</p>
+    </div>
+  <img src="https://assets.onecompiler.app/42kq8ngd7/42qkwhawf/logo_css.png" alt="Person 1" class="responsive-img">
+      
+    <h1>About Me</h1>
+    <p>Hello! I'm Nani, and I am passionate about [Your Field/Interest]. My goal is to [Your Mission or Career Goals]. I strive for excellence in everything I do, bringing creativity and dedication to each project.</p>
+
+    <h1>My Skills & Portfolio</h1>
+    <p>I offer expertise in the following areas:</p>
+    <ul class="list-unstyled">
+      <li>Skill 1</li>
+      <li>Skill 2</li>
+      <li>Project 1</li>
+      <li>Project 2</li>
+    </ul>
+
+    <h1>Why Work with Me?</h1>
+    <p>Here are a few reasons why I stand out:</p>
+    <ol>
+      <li>Proven Track Record</li>
+      <li>Creative Problem Solver</li>
+      <li>Reliable and Committed to Excellence</li>
+    </ol>
+
+    <h1>My Network</h1>
+    <p>I'm fortunate to collaborate with amazing individuals who inspire and support my journey. Here are some key members of my network:</p>
+    <div class="row">
+    <img src"1.jpg" alt"img" class="responsive-img">
+    		<div class="placeholder-image"> img 2 </div>
+    	<div class="col-md-6 col-lg-3 mb-4">
+        <h3>Person 1</h3>
+        <p>Role 1</p>
+      </div>
+      <div class="col-md-6 col-lg-3 mb-4">
+        <img src="https://assets.onecompiler.app/42kq8ngd7/42qkwhawf/logo_css.png" alt="Person 2" class="responsive-img">
+        <h3>Person 2</h3>
+        <p>Role 2</p>
+      </div>
+    </div>
+
+    <h1>Contact Me</h1>
+    <p>If you'd like to get in touch or collaborate, feel free to reach out:</p>
+    <p>Phone: [Your Phone Number]</p>
+    <p>Email: [Your Email Address]</p>
+    <div class="text-center">
+      <button class="btn btn-primary">Get in Touch</button>
+    </div>
+  </div>
+
+</body>
+</html>
